@@ -72,8 +72,8 @@ public class CardGame {
 					shouldSwap = true; 
 				}
 				else if(num1 == num2){
-					String suit1 = hand[j].getSuit(); 
-					String suit2 = hand[j+1].getSuit(); 
+					char suit1 = hand[j].getSuit(); 
+					char suit2 = hand[j+1].getSuit(); 
 					if(suit1 > suit2){
 						shouldSwap = true; 
 					}
